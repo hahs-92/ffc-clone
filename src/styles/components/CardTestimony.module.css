@@ -1,0 +1,70 @@
+.Testimony{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 1rem 1rem 5rem;
+    background-color: #ffffff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+}
+
+.Image{
+    width: 30%;
+    height: 100%;
+}
+
+.Image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.TextContent {
+    text-align: center;
+    padding: 4rem;
+    font-size: 1.8rem;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 2rem;
+    width: 70%;
+}
+
+.Name {
+    font-size: 2rem;
+}
+
+.Role {
+    margin-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.Content {
+    text-align: justify;
+}
+
+
+@media (max-width: 850px) {
+    .Image {
+        width: 45%;
+    }
+
+    .TextContent {
+        width: 55%;
+    }
+}
+
+@media (max-width: 625px) {
+    .Image {
+        width: 100%;
+    }
+
+    .TextContent {
+        width: 100%;
+    }
+
+    .Content {
+        text-align: left;
+    }
+}

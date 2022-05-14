@@ -1,0 +1,23 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 144rem;
+  height: 100%;
+}
+
+.Title {
+  margin: 2rem 0;
+  font-size: 3.8rem;
+  text-align: center;
+}
